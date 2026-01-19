@@ -1,0 +1,68 @@
+{
+  "freshness": {
+    "fresh_max": 100,
+    "spawn_distribution": "triangular",
+    "spawn_min": 50,
+    "spawn_max": 100,
+    "decay_base": 2.0,
+    "decay_stage_mult": 1.2,
+    "merge_bonus": 20,
+    "fresh_cap": 100
+  },
+  "rot": {
+    "rotten_threshold": 30,
+    "rot_rate": 0.08
+  },
+  "score": {
+    "fresh_to_score": 1.0,
+    "count_bonus": 40
+  },
+  "game_over": {
+    "line_y": 0.2,
+    "grace_ms": 3000
+  },
+  "physics": {
+    "gravity": 300.0,
+    "bounce": 0.3,
+    "friction": 0.98,
+    "merge_cooldown": 0.5
+  },
+  "fruits": [
+    {
+      "name": "ume",
+      "display_name": "梅",
+      "radius": 12,
+      "color": 10
+    },
+    {
+      "name": "kaki",
+      "display_name": "柿",
+      "radius": 16,
+      "color": 9
+    },
+    {
+      "name": "momo",
+      "display_name": "桃",
+      "radius": 20,
+      "color": 8
+    },
+    {
+      "name": "budou",
+      "display_name": "ぶどう",
+      "radius": 24,
+      "color": 5
+    },
+    {
+      "name": "dekopon",
+      "display_name": "デコポン",
+      "radius": 28,
+      "color": 4
+    },
+    {
+      "name": "mikan",
+      "display_name": "みかん",
+      "radius": 32,
+      "color": 10
+    }
+  ]
+}
