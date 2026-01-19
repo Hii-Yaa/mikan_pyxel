@@ -1,0 +1,7 @@
+Assets License
+===============
+
+This project uses simple geometric shapes and basic colors for visualization.
+All visual assets are original and can be freely used and modified.
+
+The game is inspired by fruit merging puzzle games.
